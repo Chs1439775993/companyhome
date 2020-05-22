@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+  <title>南京又正科技有限公司</title>
+  <link rel="stylesheet" href="layui/css/layui.css">
+  <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+  <!-- nav部分 -->
+  <div class="nav">
+    <div class="layui-container">
+      <!-- 公司logo -->
+      <div class="nav-logo">
+        <a href="index.html">
+          <img src="static/img/又正科技.png" alt="又正科技">
+        </a>
+      </div>
+      <div class="nav-list">
+        <button>
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="layui-nav" lay-filter="">
+          <li class="layui-nav-item"><a href="index.html">首页</a></li>
+          <li class="layui-nav-item"><a href="product.html">产品</a></li>
+          <li class="layui-nav-item"><a href="news.html">动态</a></li>
+          <li class="layui-nav-item layui-this"><a href="case.html">案例</a></li>
+          <li class="layui-nav-item"><a href="about.html">关于</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- banner部分 -->
+  <div class="banner case">
+    <div class="title">
+      <p>成功案例</p>
+      <p class="en">Successful Case</p>
+    </div>
+  </div>
+  <!-- main部分 -->
+  <div class="main-case">
+    <div class="layui-container">
+      <div class="layui-row">
+
+        <div class="layui-inline content even center">
+          <div class="layui-inline case-img"><img src="static/img/重庆案例.jpg"></div>
+          <p class="lable">重庆XXXX有限公司</p>
+          <p>电力用户用电信息采集系统;实现用电监控、推行阶梯定价、负荷管理、线损分析，最终达到自动抄表、错峰用电、用电检查（防窃电） 、负荷预测和节约用电成本等目的。</p>
+        </div>
+        
+        <div class="layui-inline content center">
+          <div class="layui-inline case-img"><img src="static/img/zzal.jpg"></div>
+          <p class="lable">马钢XXXX有限责任公司</p>
+          <p>通过多种通讯方式实现系统主站和现场终端之间的数据通讯，具备数据采集、远程控制、用电异常信息报警、电能质量监测、线损分析、无功电压管理和负荷监控管理等功能。</p>
+        </div>
+        
+        
+      </div>
+      <div id="casePage"></div>
+    </div>
+  </div>
+  <!-- footer部分 -->
+  <div class="footer">
+    <div class="layui-container">
+     <p class="footer-web">
+        <a href="javascript:;">产品中心</a>
+        <a href="javascript:;">方案定制</a>
+        <a href="javascript:;">服务支持</a>
+        <a href="javascript:;">关于我们</a>
+        <a href="javascript:;">成功案例</a>
+        <a href="javascript:;">联系我们</a>
+      </p>
+      <div class="layui-row footer-contact">
+        <div class="layui-col-sm2 layui-col-lg1"><img src="static/img/erweima.jpg"></div>
+        <div class="layui-col-sm10 layui-col-lg11">
+          <div class="layui-row">
+            <div class="layui-col-sm6 layui-col-md8 layui-col-lg9">
+             <p class="contact-top"><i class="layui-icon layui-icon-cellphone"></i>&nbsp;0555-2222114&nbsp;&nbsp;(8:30-17:30)</p>
+              <p class="contact-bottom"><i class="layui-icon layui-icon-home"></i>&nbsp;88888888@163.com</span></p>
+            </div>
+            <div class="layui-col-sm6 layui-col-md4 layui-col-lg3">
+              <p class="contact-bottom"><span class="right">公司地址&nbsp;&nbsp;安徽省马鞍山市&nbsp;&nbsp;花山区&nbsp;第888号</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="layui/layui.js"></script>
+<!--[if lt IE 9]>
+  <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script>
+  layui.config({
+    base: 'static/js/'
+  }).use('firm'); 
+</script>
+</body>
+</html>
